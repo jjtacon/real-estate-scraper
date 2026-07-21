@@ -137,7 +137,7 @@ def export_to_excel(properties: list[dict], file_path: Path) -> None:
         ])
 
     # Sheet 2: Deals Below Market Average (15% discount threshold)
-    ws_deals = wb.create_sheet(title="🔥 Opportunities")
+    ws_deals = wb.create_sheet(title="Opportunities")
     ws_deals.append([
         "Price",
         "Location",
